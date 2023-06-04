@@ -11,4 +11,5 @@ def get_reports():
 @app.post("/reports")
 def create_report():
     request_data = request.get_json()
-    return {"reports": reports}
+    new_store = {"name": request_data["name"], "items": []}
+    return new_store
