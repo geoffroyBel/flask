@@ -1,5 +1,5 @@
 # Python REST API
-...
+    stage afpa
 ## Rest app with flask
 
 this project is a starter app for makin a crud api:
