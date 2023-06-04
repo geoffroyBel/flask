@@ -4,6 +4,7 @@
 
 this project is a starter app for makin a crud api:
 ## Requirements
+    `pip install -r requirements.txt`
     * flask
     * flask-smorest
     * python-dotenv
