@@ -20,3 +20,5 @@ this project is a starter app for makin a crud api:
         (flask run will look for a file call app.py then inside the app.py it will look for an app variable then flask run will make those endpoints available for a client which gonna his requests to the flask server address )
     -[ctrl+ c]
         (close the app)
+3) retrieve json param send to client with  flask import request,...
+    - data = request.get_json()
