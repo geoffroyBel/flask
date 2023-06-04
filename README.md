@@ -1,4 +1,4 @@
-# Python REST API
+# Python REST
     stage afpa
 ## Rest app with flask
 
