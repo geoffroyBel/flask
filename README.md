@@ -10,6 +10,7 @@ this project is a starter app for makin a crud api:
     * python-dotenv
 ### Install  
 1)install latest python from www.python.org
+---
 2)initial virtual environnement
 
     -python3.11 -m venv .venv
@@ -26,7 +27,11 @@ this project is a starter app for makin a crud api:
     -[ctrl+ c]
         (close the app)
 
-3) retrieve json request body
+3)retrieve json request body
 
     - flask import request,...
     - data = request.get_json()
+
+4) set Flask environments variables in .flaskenv
+    -FLASK_APP=app
+    -FLASK_DEBUG=1
